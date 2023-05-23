@@ -1,0 +1,103 @@
+{
+  "humano": {
+    "id": 1,
+    "nome": "Humano",
+    "bonus": {
+      "for": 0,
+      "des": 0,
+      "con": 0,
+      "int": 0,
+      "sab": 0,
+      "car": 0
+    },
+    "habilidades_de_raca": [
+      { "nome": "+1 em Três Atributos Diferentes" },
+      {
+        "nome": "Versátil",
+        "descricao": "Você se torna treinado em duas perícias a sua escolha (não precisam ser da sua classe). Você pode trocar uma dessas perícias por um poder geral a sua escolha."
+      }
+    ]
+  },
+  "anao": {
+    "id": 2,
+    "nome": "Anão",
+    "bonus": {
+      "for": 0,
+      "des": 0,
+      "con": 2,
+      "int": 1,
+      "sab": 0,
+      "car": -1
+    },
+    "habilidades_de_raca": [
+      {
+        "nome": "Busca pela perfeição",
+        "descricao": "Você recebe +2 em Ofício e, se for treinado nesta perícia, pode fabricar itens superiores com uma melhoria (cumulativo com outras habilidades que permitam fabricar itens superiores)."
+      },
+      {
+        "nome": "Devagar e Sempre",
+        "descricao": "Seu deslocamento é 6m (em vez de 9m).\n   Porém, seu deslocamento não é reduzido por uso de armadura ou excesso de carga."
+      },
+      {
+        "nome": "Moldado nas rochas",
+        "descricao": "Você recebe visão no escuro e +1 ponto de vida por nível."
+      }
+    ]
+  },
+  "elfo": {
+    "id": 3,
+    "nome": "Elfo",
+    "bonus": {
+      "for": 0,
+      "des": 1,
+      "con": -1,
+      "int": 0,
+      "sab": 2,
+      "car": 0
+    },
+    "habilidades_de_raca": [
+      {
+        "nome": "Armas da Floresta",
+        "descricao": "Para você, todos os arcos são armas simples, e você recebe +2 em rolagens de dano com estas armas."
+      },
+      {
+        "nome": "Magia Antiga",
+        "descricao": "Você recebe +1 ponto de mana por nível e usa Sabedoria como atributo-chave de Misticismo e de magias arcanas (em vez de Inteligência)."
+      },
+      {
+        "nome": "Passo Leve",
+        "descricao": "Você recebe +2 em Furtividade e seu deslocamento é 12m (em vez de 9m)."
+      },
+      {
+        "nome": "Sentidos Élficos",
+        "descricao": "Você recebe visão na penumbra e +2 em Percepção."
+      },
+      {
+        "nome": "Sentimentos Conflitantes",
+        "descricao": "Você sofre –5 em Diplomacia e Vontade. Consumir uma dose de de turlin (veja o Capítulo 3) anula esta penalidade por uma cena"
+      }
+    ]
+  },
+  "gigante": {
+    "id": 4,
+    "nome": "Gigante",
+    "bonus": {
+      "for": 3,
+      "des": 0,
+      "con": 2,
+      "int": -2,
+      "sab": -1,
+      "car": -1
+    },
+    "habilidades_de_raca": [
+      {
+        "nome": "Grandão",
+        "descricao": "Seu tamanho é Grande (veja a página 71) e você soma sua Força em seu total de pontos de vida.\n Você pode usar armas normais ou aumentadas, mas só pode vestir armaduras especialmente feitas para seu tamanho"
+      },
+      {
+        "nome": "Primitivo",
+        "descricao": "Você sofre –5 em Diplomacia, Intuição e Ofício e em testes de ataque com armas marciais ou exóticas."
+      }
+    ]
+  }
+}
