@@ -1,5 +1,5 @@
-{
-  "humano": {
+[
+  {
     "id": 1,
     "nome": "Humano",
     "bonus": {
@@ -18,7 +18,7 @@
       }
     ]
   },
-  "anao": {
+  {
     "id": 2,
     "nome": "Anão",
     "bonus": {
@@ -44,7 +44,7 @@
       }
     ]
   },
-  "elfo": {
+  {
     "id": 3,
     "nome": "Elfo",
     "bonus": {
@@ -78,7 +78,7 @@
       }
     ]
   },
-  "gigante": {
+  {
     "id": 4,
     "nome": "Gigante",
     "bonus": {
@@ -100,4 +100,4 @@
       }
     ]
   }
-}
+]
