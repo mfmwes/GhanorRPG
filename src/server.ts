@@ -10,6 +10,9 @@ app.register(cors, {
   origin: true,
 });
 
-app.listen({ host: "0.0.0.0", port: Number(process.env.PORT) || 3333 }, () => {
-  console.log("server is running");
-});
+app.listen(
+  { host: "0.0.0.0", port: process.env.PORT ? Number(process.env.PORT) : 3333 },
+  () => {
+    console.log("server is running");
+  }
+);
