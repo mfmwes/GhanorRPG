@@ -9,4 +9,4 @@ app.register(cors, {
   origin: true,
 });
 
-app.listen({ port: 3333, host: "0.0.0.0" });
+app.listen({host: "0.0.0.0" });
