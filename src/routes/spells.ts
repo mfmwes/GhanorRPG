@@ -16,6 +16,8 @@ export const SpellsRoute = async (app: FastifyInstance) => {
     const spellFound = spells.find(
       (spell) =>
         spell.name === name ||
+        spell.name.toLowerCase() === name ||
+        spell.name.toUpperCase() === name ||
         spell.name.split(/\s+/).join("-").toLowerCase() === name
     );
     if (!spellFound) {
@@ -26,9 +28,3 @@ export const SpellsRoute = async (app: FastifyInstance) => {
     return spellFound;
   });
 };
-
-// const arr = spells.map((spell) => {
-//   return spell.name.split(/\s+/).join("-");
-// });
-
-// console.log(arr);
