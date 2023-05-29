@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "npx tsx watch src/server.ts",
-    "start": "npx run build"
+    "start": "npx tsx src/server.ts"
   },
   "dependencies": {
     "@fastify/cors": "^8.3.0",
