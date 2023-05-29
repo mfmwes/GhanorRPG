@@ -9,6 +9,6 @@ app.register(cors, {
   origin: true,
 });
 
-app.listen({ host: "0.0.0.0" }, () => {
+app.listen({ port: 3333, host: "0.0.0.0" }, () => {
   console.log("Servidor rodando na porta 3333");
 });

@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "npx tsx watch src/server.ts",
-    "build": "tsup src",
+    "build":"tsup ./src",
     "start": "node dist/server.js"
   },
   "dependencies": {
@@ -10,7 +10,6 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
-    "dotenv": "^16.0.3",
     "tsup": "^6.7.0",
     "tsx": "^3.12.7",
     "typescript": "^5.0.4"
