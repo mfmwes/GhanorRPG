@@ -99,5 +99,120 @@
         "descricao": "Você sofre –5 em Diplomacia, Intuição e Ofício e em testes de ataque com armas marciais ou exóticas."
       }
     ]
+  },
+  {
+    "id": 5,
+    "nome": "Hobgoblin",
+    "bonus": {
+      "for": 1,
+      "des": 1,
+      "con": 1,
+      "int": 0,
+      "sab": 0,
+      "car": -1
+    },
+    "habilidades_de_raca": [
+      {
+        "nome": "Couro Duro",
+        "descricao": "Você recebe redução de dano igual a sua Constituição, limitada por seu nível."
+      },
+      {
+        "nome": "Dependência de Liderança",
+        "descricao": "Você possui uma necessidade instintiva de seguir uma figura de liderança. Escolha outro personagem (geralmente aquele de maior Carisma) como o líder. Embora não seja forçado a obedecê-lo, você tem a tendência de ouvir os conselhos e opiniões do líder de maneira mais favorável. Você nunca age antes do líder, e sofre –1 em testes de perícia se estiver distante dele (além de alcance médio)."
+      },
+      {
+        "nome": "Militarista",
+        "descricao": "Você recebe um poder de combate à sua escolha."
+      },
+      {
+        "nome": "Natureza Bestial",
+        "descricao": "Você recebe visão no escuro e usa Constituição em Intimidação (em vez de Carisma)."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "nome": "Meio-Elfo",
+    "bonus": {
+      "for": 0,
+      "des": 0,
+      "con": 0,
+      "int": 0,
+      "sab": 0,
+      "car": 2
+    },
+    "habilidades_de_raca": [
+      {
+        "descricao": "+1 em outro atributo"
+      },
+      {
+        "nome": "Longa Infância",
+        "descricao": "Você escolhe uma origem adicional, recebendo o benefício mas não os itens desta segunda origem."
+      },
+      {
+        "nome": "Sentidos Ancestrais",
+        "descricao": "Você recebe visão na penumbra e +2 em Intuição e Percepção."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "nome": "Aberrante",
+    "bonus": {
+      "for": 0,
+      "des": 0,
+      "con": 0,
+      "int": 0,
+      "sab": 0,
+      "car": -2
+    },
+    "habilidades_de_raca": [
+      {
+        "nome": "Mutações",
+        "descricao": "Escolha quatro mutações da lista a seguir.\nQuando recebe um novo poder de classe, pode trocar este poder por uma mutação.\nCada mutação só pode ser escolhida uma vez."
+      }
+    ],
+    "mutaçoes": [
+      {
+        "nome": "Ascético",
+        "descricao": "Você recebe +1 em Sabedoria e +3 PM."
+      },
+      {
+        "nome": "Couro Rochoso",
+        "descricao": "Você recebe +2 em Defesa"
+      },
+      {
+        "nome": "Magia Bizarra",
+        "descricao": "Você pode lançar uma magia arcana de 1º círculo a sua escolha (atributo-chave Inteligência ou Carisma). Se aprender novamente esta magia, seu custo diminui em –1 PM."
+      },
+      {
+        "nome": "Metamorfose",
+        "descricao": "Você pode lançar Disfarce Ilusório (atributo-chave Carisma)."
+      },
+      {
+        "nome": "Mordida",
+        "descricao": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma corpo a corpo, pode gastar 1 PM para fazer um ataque extra com a mordida."
+      },
+      {
+        "nome": "Musculoso",
+        "descricao": "Você recebe +1 em Força e +5 de capacidade de carga."
+      },
+      {
+        "nome": "Resistente",
+        "descricao": "Você recebe +1 em Constituição e resistência a magia +2"
+      },
+      {
+        "nome": "Sentidos Aguçados",
+        "descricao": "Você recebe visão no escuro e +2 em Percepção."
+      },
+      {
+        "nome": "Veloz",
+        "descricao": "Você recebe +1 em Destreza e deslocamento +3m."
+      },
+      {
+        "nome": "Venenoso",
+        "descricao": "Você recebe resistência a veneno +5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja empunhando.\n A arma causa perda de 1d12 pontos de vida. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro)."
+      }
+    ]
   }
 ]
