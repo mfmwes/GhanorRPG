@@ -2,10 +2,12 @@ import fastify from "fastify";
 import { SpellsRoute } from "./routes/spells";
 import cors from "@fastify/cors";
 import "dotenv/config";
+import { RacasRoute } from "./routes/racas";
 
 const app = fastify();
 
 app.register(SpellsRoute);
+app.register(RacasRoute);
 app.register(cors, {
   origin: true,
 });
